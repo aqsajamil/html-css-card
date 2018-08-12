@@ -1,0 +1,30 @@
+html,body{
+    width: 100%;
+    background: pink;
+    
+    padding: 0;
+    margin: 0;
+
+}
+#birth{
+    text-align: center;
+    margin: 3rem 0 0 0;
+}
+.pic{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 4rem 0 0 0;
+}
+.box{
+    
+    background: papayawhip;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    box-shadow: black;
+}
+p{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
